@@ -1,9 +1,6 @@
 #stack using Python
 
 #Basic
-from ast import Global
-
-
 TOP=0
 MAX=5
 c=[]
@@ -29,7 +26,7 @@ def Pop():
 
 def Display():
     print("------------")
-    for i in reversed(range(len(c)))1:
+    for i in reversed(range(len(c))):
         print(c[i])
 
 #Main Container
